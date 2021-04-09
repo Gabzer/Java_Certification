@@ -47,10 +47,6 @@ public abstract class Product implements Rateable<Product>{
     private String name;
     private BigDecimal price;
     private Rating rating;
-
-//    Product() {
-//        this(0, "no name", BigDecimal.ZERO);
-//    }
     
     Product(int id, String name, BigDecimal price, Rating rating) {
         this.id = id;
@@ -67,25 +63,13 @@ public abstract class Product implements Rateable<Product>{
         return id;
     }
 
-//    public void setId(final int id) {
-//        this.id = id;
-//    }
-
     public String getName() {
         return name;
     }
 
-//    public void setName(final String name) {
-//        this.name = name;
-//    }
-
     public BigDecimal getPrice() {
         return price;
     }
-
-//    public void setPrice(final BigDecimal price) {
-//        this.price = price;
-//    }
 
     /**
      * Calculates discount based on a product price and
@@ -100,13 +84,7 @@ public abstract class Product implements Rateable<Product>{
     @Override
     public Rating getRating() {
         return rating;
-    }
-    
-//    public abstract Product applyRating(Rating newRating);
-//    {
-//        return new Product(id, name, price, newRating);
-//    }
-    
+    }    
 
     /**
      * Get the value of the best before date of the product
@@ -132,10 +110,9 @@ public abstract class Product implements Rateable<Product>{
     @Override
     public boolean equals(Object obj) {
         if (this == obj) { return true; }
-//        if (obj != null && getClass() == obj.getClass()) {
         if (obj instanceof Product) {
             final Product other = (Product) obj;
-            return this.id == other.id && Objects.equals(this.name, other.name);
+            return this.id == other.id; // && Objects.equals(this.name, other.name);
         }
         return false;
     }
