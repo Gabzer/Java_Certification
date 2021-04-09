@@ -5,7 +5,11 @@
         <group>
             <file>file:/C:/Users/gabze/Desktop/Projetos%20Pessoais/Java_Certification/ProductManagement/src/labs/pm/app/Shop.java</file>
             <file>file:/C:/Users/gabze/Desktop/Projetos%20Pessoais/Java_Certification/ProductManagement/src/labs/pm/data/Product.java</file>
+            <file>file:/C:/Users/gabze/Desktop/Projetos%20Pessoais/Java_Certification/ProductManagement/src/labs/pm/data/ProductManager.java</file>
             <file>file:/C:/Users/gabze/Desktop/Projetos%20Pessoais/Java_Certification/ProductManagement/src/labs/pm/data/Rating.java</file>
+            <file>file:/C:/Users/gabze/Desktop/Projetos%20Pessoais/Java_Certification/ProductManagement/src/labs/pm/data/resources.properties</file>
+            <file>file:/C:/Users/gabze/Desktop/Projetos%20Pessoais/Java_Certification/ProductManagement/src/labs/pm/data/Review.java</file>
+            <file>file:/C:/Users/gabze/Desktop/Projetos%20Pessoais/Java_Certification/ProductManagement/src/labs/pm/data/Rateable.java</file>
         </group>
     </open-files>
 </project-private>
