@@ -1,7 +1,0 @@
-English Breakfast Tea, Price: £1.99, Rating: ★★★★☆, Best Before: 14/04/2021
-Review: ★★★★★	Perfect tea
-Review: ★★★★☆	Nice hot cup of tea
-Review: ★★★★☆	Fine tea
-Review: ★★★★☆	Good tea
-Review: ★★★☆☆	Just add some lemon
-Review: ★★☆☆☆	Rather weak tea
