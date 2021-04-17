@@ -35,7 +35,7 @@ import labs.pm.data.Rating;
 /**
  * {@code Shop} class represents an application that manages Products
  *
- * @version 4.0
+ * @version 15.0
  * @author gabze
  */
 public class Shop {

@@ -52,7 +52,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**
- * @version 14.0
+ * @version 15.0
  * @author gabze
  */
 public class ProductManager {
